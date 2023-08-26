@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 
 int main() {
     string a= "allowed",
@@ -10,10 +10,12 @@ int main() {
     cout<<"please enter your name"<<endl;
     cin>>c;
 
-    if (c=="ken"){
+    if (c!="ken"){
         cout<<a<<endl;
     } else {
         cout<<b<<endl;
     }
 
+std::cin.get();
+return 0;
 }
