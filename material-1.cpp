@@ -3,16 +3,14 @@ using namespace std;
 
 
 int main() {
-    int a, b;
-    a= 2,
-    b=3;
-
-    bool hasil1, hasil2;
-    hasil1= a<=b,
-    hasil2= a!=b;
-
-    cout<<hasil1<<endl;
-    cout<<hasil2<<endl;
+    string nama, kelas;
+    cout<<"masukkan nama anda: "<<endl;
+    cin>>nama;
+    if (nama=="ken" || nama=="qila"){
+        cout<<"passed"<<endl;
+    } else {
+        cout<<"not passed"<<endl;
+    }
 std::cin.get();
 return 0;
 }
