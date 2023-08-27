@@ -3,19 +3,16 @@ using namespace std;
 
 
 int main() {
-    string a= "allowed",
-    b= "not allowed",
-    c;
+    int a, b;
+    a= 2,
+    b=3;
 
-    cout<<"please enter your name"<<endl;
-    cin>>c;
+    bool hasil1, hasil2;
+    hasil1= a<=b,
+    hasil2= a!=b;
 
-    if (c!="ken"){
-        cout<<a<<endl;
-    } else {
-        cout<<b<<endl;
-    }
-
+    cout<<hasil1<<endl;
+    cout<<hasil2<<endl;
 std::cin.get();
 return 0;
 }
