@@ -3,17 +3,18 @@
 using namespace std;
 
 int main() {
-    string a= "allowed",
-    b= "not allowed",
-    c;
-
-    cout<<"please enter your name"<<endl;
-    cin>>c;
-
-    if (c=="ken"){
-        cout<<a<<endl;
-    } else {
-        cout<<b<<endl;
-    }
-
+    int permen = 2000,
+    chiki = 4000,
+    biskuit = 6000,
+    x,
+    y,
+    n;
+    cout<<"masukkan jumlah permen:"<<endl;
+    cin>>x;
+    cout<<"masukkan jumlah chiki:"<<endl;
+    cin>>y;
+    cout<<"masukkan jumlah biskuit:"<<endl;
+    cin>>n;
+    
+    cout<<(permen*x)+(chiki*y)+(biskuit*n)<<endl;
 }
