@@ -1,11 +1,13 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
 
-int main() {
-   float a= 10;
+int main(int argc, char const *argv[])
+{
+   int a,b;
+   a= 1;
+   b= 2*a;
 
-   a*=12;
 
-   cout<<a<<endl;
+   cout<<b<<endl;
 }

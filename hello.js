@@ -1,8 +1,6 @@
-let nilaiA = 10;
-let nilaiB = 20;
+let total=0;
 
-if (nilaiA> nilaiB){
-    console.log("berhasil")
-} else {
-    console.log("gagal")
+for(let i=1; i<=10; i++){
+    total+=i;
+    console.log(i+"||"+total)
 }
