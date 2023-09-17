@@ -1,0 +1,31 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* first part */
+.orange {
+    background-color: orange;
+    text-align: center;
+}
+h1 {
+    padding-top: 20px;
+    font-family: 'VT323', monospace !important;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.orange a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+    
+}
+.orange button{
+    margin-bottom: 20px;
+}
+.lorem1 {
+    margin: auto;
+    width: 800px;
+}
+/* end of the first part */
